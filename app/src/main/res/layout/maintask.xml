@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="20dp"
+    android:background="@drawable/recitemback"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/itemname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/itemcare"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_toLeftOf="@+id/itemicon"
+        android:layout_toRightOf="@+id/itemmore"
+        android:fontFamily="casual"
+        android:text="کتابخوانی"
+        android:textAlignment="viewEnd"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp" />
+
+    <RatingBar
+        android:id="@+id/itemcare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/itemicon"
+        android:layout_marginBottom="-20dp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:rating="1"
+        android:scaleX="0.75"
+        android:scaleY="0.75" />
+
+    <ImageView
+        android:id="@+id/itemicon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/i" />
+
+    <TextView
+        android:id="@+id/itemid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemcare"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/itemmore"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentTop="true"
+        android:scaleX="0.75"
+        android:scaleY="0.75"
+        app:srcCompat="@drawable/morebutton" />
+
+    <CheckedTextView
+        android:id="@+id/itemisdone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/itemcare"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:layout_toLeftOf="@+id/itemcare"
+        android:checkMark="@android:drawable/checkbox_on_background"
+        android:checked="true"
+        android:fontFamily="casual"
+        android:text="Done"
+        android:textAlignment="textEnd"
+        android:textColor="@color/colorAccent"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

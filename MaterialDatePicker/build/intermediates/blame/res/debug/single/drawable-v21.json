@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\Tasks\\MaterialDatePicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\mdtp_material_button_selected.xml",
+        "source": "E:\\Tasks\\MaterialDatePicker\\src\\main\\res\\drawable-v21\\mdtp_material_button_selected.xml"
+    },
+    {
+        "merged": "E:\\Tasks\\MaterialDatePicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\mdtp_material_button_background.xml",
+        "source": "E:\\Tasks\\MaterialDatePicker\\src\\main\\res\\drawable-v21\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "F:\\Tasks\\MaterialDatePicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\mdtp_material_button_background.xml",
+        "source": "F:\\Tasks\\MaterialDatePicker\\src\\main\\res\\drawable-v21\\mdtp_material_button_background.xml"
+    },
+    {
+        "merged": "F:\\Tasks\\MaterialDatePicker\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\mdtp_material_button_selected.xml",
+        "source": "F:\\Tasks\\MaterialDatePicker\\src\\main\\res\\drawable-v21\\mdtp_material_button_selected.xml"
+    }
+]

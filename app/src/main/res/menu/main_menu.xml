@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addt"
+        android:title="addtask" />
+    <item android:title="addcat" />
+    <item
+        android:title="setpass"
+        android:visible="true" />
+    <item android:title="changepass" />
+</menu>

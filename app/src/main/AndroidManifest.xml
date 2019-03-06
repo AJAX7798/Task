@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tasks.ajax.tasks">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".Emka"
+        android:allowBackup="true"
+        android:icon="@mipmap/clipboard"
+        android:label="Task Manager"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/clipboard"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_title"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddingTask"
+            android:label="@string/add"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".addcat"
+            android:label="New Group"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Edit_Task"
+            android:label="Edit Task"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SetPass"
+            android:label="Password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChangePass"
+            android:label="Change Password"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Edit_Cat"
+            android:label="Changing Group Title" />
+        <activity
+            android:name=".Stat"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tasks"
+            android:label= "Task Manager"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Group_Management"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShowTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+
+        <activity
+            android:name=".About"
+            android:label="About us" />
+        <activity android:name=".BackgroundSetting"
+            android:label="Background Settings"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

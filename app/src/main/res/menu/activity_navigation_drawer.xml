@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/new_cat"
+            android:icon="@drawable/addcat"
+            android:title="New Group" />
+        <item
+            android:id="@+id/cat_manage"
+            android:icon="@drawable/list"
+            android:title="Groups Settings" />
+        <item
+            android:id="@+id/stat"
+            android:icon="@drawable/statistics"
+            android:title="Graph" />
+        <item
+            android:id="@+id/passwd"
+            android:icon="@drawable/padlock"
+            android:title="Password" />
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About us" />
+        <item
+            android:id="@+id/exit_item"
+            android:icon="@drawable/logout"
+            android:title="Exit" />
+    </group>
+
+</menu>

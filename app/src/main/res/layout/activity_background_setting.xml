@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tasks.ajax.tasks.BackgroundSetting">
+
+    <RadioGroup
+        android:id="@+id/ra1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="30dp">
+
+                    <ImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignLeft="@+id/imageView11"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/imageView11"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/newbackic" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignLeft="@+id/imageView10"
+                        android:layout_alignStart="@+id/imageView10"
+                        android:layout_below="@+id/imageView10"
+                        android:layout_marginTop="32dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/newbackic1" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignLeft="@+id/imageView11"
+                        android:layout_alignStart="@+id/imageView11"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginTop="19dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/newbackic2" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView12"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_weight="1"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="true"
+                        android:scaleType="fitCenter"
+                        app:srcCompat="@drawable/newbackic3" />
+
+                    <RadioButton
+                        android:id="@+id/aval"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="casual"
+                        android:layout_alignBottom="@+id/imageView12"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toEndOf="@+id/imageView12"
+                        android:layout_toRightOf="@+id/imageView12"
+                        android:layout_weight="1"
+                        android:text="Background 1" />
+
+                    <RadioButton
+                        android:id="@+id/charom"
+                        android:layout_width="wrap_content"
+                        android:fontFamily="casual"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView7"
+                        android:layout_marginBottom="15dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toEndOf="@+id/imageView7"
+                        android:layout_toRightOf="@+id/imageView7"
+                        android:layout_weight="1"
+                        android:text="Background 4" />
+
+                    <RadioButton
+                        android:id="@+id/sevom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/imageView7"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toEndOf="@+id/imageView10"
+                        android:fontFamily="casual"
+                        android:layout_toRightOf="@+id/imageView10"
+                        android:layout_weight="1"
+                        android:text="Background 3" />
+
+                    <RadioButton
+                        android:id="@+id/dovom"
+                        android:fontFamily="casual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/imageView11"
+                        android:layout_marginBottom="13dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_toEndOf="@+id/imageView11"
+                        android:layout_toRightOf="@+id/imageView11"
+                        android:layout_weight="1"
+                        android:text="Background 2" />
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    </RadioGroup>
+
+</RelativeLayout>

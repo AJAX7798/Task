@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3c3c3d</color>
+    <color name="colorPrimaryDark">#3c3c3d</color>
+    <color name="colorAccent">#da31ab01</color>
+    <color name="white">#ffffff</color>
+    <color name="txtbg">#c8ffffff</color>
+    <color name="mohlat">#aa248000</color>
+    <color name="txtcol">#d1ffffff</color>
+    <color name="sptxtbg">#72000000</color>
+    <color name="selecting">#ffaa66cc</color>
+    <color name="backdefault">#05acff</color>
+    <color name="sh">#605353</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="item_back">#cbd0ff00</color>
+    <color name="shafaf">#00ffffff</color>
+    <color name="cat_back">#a3242424</color>
+    <color name="consta">#fb0079</color>
+    <color name="mdtp_neutral_pressed">#f6f5f5</color>
+    <!-- accent #00cb03 -->
+</resources>
